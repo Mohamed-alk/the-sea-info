@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <style>
+header{
+       color: white;
+         background-color: black;
+         text-align: center;
+          border: 10px rgb(0, 255, 0) double;
+        }
+    img{
+       border: 30px rgb(0, 255, 0) double ;
+    width: 400px;
+    height: 300px;
+    }
+  p{
+     border: 4px rgb(0, 255, 0) double ;
+       background-color: blue;
+       color: orange ;
+ }
+ body{
+    text-align: center;
+ }
+ nav{
+    display: flex;
+      height: 40px;
+      justify-content: center;
+}
+nav a{
+display: flex;
+text-decoration: none;
+font-size: larger;
+flex-grow: 1;
+justify-content: center;
+align-items: center;
+transition: background-color 2.0s;
+transition: color 2.0s;
+}
+nav a:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 400px ) {
+    nav{
+       flex-direction: column;
+        height: 100px;
+    }
+}
+       </style>
+</head>
+<body>
+    <header>
+        <h1>welcome to fish information</h1>
+        <nav>
+            <a href="index.html">sea information</a>
+        </nav>
+    </header>
+    <main>
+       <p>Dozens of deceased fish can be seen floating in a stretch of the canal from Spinks Bridge, Walsall, down to Birchills Street Bridge - which the...</p>
+         <img src="./proxy-image (1).jpg" alt="">
+    </main>
+</body>
+</html>
